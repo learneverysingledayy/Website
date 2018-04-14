@@ -254,7 +254,7 @@ header {
 
 footer {
 	background-color: #333;
-	color: #888;
+	color: #999;
 	font-size: 14px;
 	line-height: 145%;
 	padding: 30px;
@@ -262,8 +262,8 @@ footer {
 
 footer a:link,
 footer a:visited {
-	color: #888;
-	border-bottom: 1px solid #888;
+	color: #999;
+	border-bottom: 1px solid #999;
 }
 
 footer a:hover,
@@ -274,4 +274,6 @@ footer a:active {
 
 footer p {
 	text-align: center;
+	width: 50%;
+	margin: 0 auto;
 }
