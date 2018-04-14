@@ -243,7 +243,7 @@ header .scroll-arrow {
 }
 
 header .scroll-arrow:hover {
-	color: #ffffffb0;
+	color: #ffffff;
 }
 
 .logo {
@@ -284,6 +284,5 @@ footer a:active {
 
 footer p {
 	text-align: center;
-	width: 50%;
-	margin: 0 auto;
+	margin: 5px auto;
 }
