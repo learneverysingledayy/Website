@@ -150,20 +150,20 @@ h3 {
 
 a:link,
 a:visited {
-	color: var(--base);
+	background-color: var(--base);
+	color: white;
 	text-decoration: none;
 	padding-bottom: 1px;
-	border-bottom: 1px solid var(--base);
-	-webkit-transition: border-bottom 0.2s, color 0.2s;
-	transition: border-bottom 0.2s, color 0.2s;
-	-webkit-transition-timing-function: ease;
-	        transition-timing-function: ease;
+	border-radius: 3px;
+	transition: border 0.2s, color 0.2s, background 0.2s;
+	transition-timing-function: ease;
+	padding: 2px;
 }
 
 a:hover,
 a:active {
+	background-color: white;
 	color: #444;
-	border-bottom: transparent;
 }
 
 /* BUTTONS */
@@ -231,7 +231,7 @@ header {
 	margin-right: 20px;
 }
 
-.scroll-arrow {
+header .scroll-arrow {
 	position: absolute;
 	color: #ffffff80;
 	cursor: pointer;
@@ -239,13 +239,20 @@ header {
 	left: 50%;
 	font-size: 300%;
 	transform: translate(-50%, -120%);
+	transition: color 0.2s;
+}
+
+header .scroll-arrow:hover {
+	color: #ffffffb0;
 }
 
 .logo {
 	height: 100px;
 	width: auto;
-	float: left;
-	margin-top: 20px;
+	position: absolute;
+	top: 50%;
+	left: 100%;
+	transform: translate(-120%, -68%);
 }
 
 /* ------------------------------ */
@@ -254,7 +261,7 @@ header {
 
 footer {
 	background-color: #333;
-	color: #999;
+	color: #bbb;
 	font-size: 14px;
 	line-height: 145%;
 	padding: 30px;
@@ -262,13 +269,16 @@ footer {
 
 footer a:link,
 footer a:visited {
-	color: #999;
-	border-bottom: 1px solid #999;
+	background: inherit;
+	color: #bbb;
+	border-bottom: 1px solid #bbb;
+	border-radius: 0;
+	padding: 0;
 }
 
 footer a:hover,
 footer a:active {
-	color: #bbb;
+	color: #ddd;
 	border-color: transparent;
 }
 
