@@ -247,12 +247,12 @@ header .scroll-arrow:hover {
 }
 
 .logo {
-	height: 100px;
+	height: 200px;
 	width: auto;
 	position: absolute;
 	top: 50%;
 	left: 100%;
-	transform: translate(-120%, -68%);
+	transform: translate(-120%, -65.5%);
 }
 
 /* ------------------------------ */

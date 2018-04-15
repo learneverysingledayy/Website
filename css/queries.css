@@ -12,7 +12,7 @@
 @media only screen and (max-width: 1023px) {
 	body { font-size: 16px; }
 	section { padding: 60px 0; }
-	.logo { height: 75px; }
+	.logo { height: 125px; }
 }
 
 /* Medium Phones - Small Tablets */
@@ -28,7 +28,7 @@
 	h1 { font-size: 180%; }
 	h2 { font-size: 150%; }
 	.logo {
-		height: 60px;
+		height: 80px;
 		position: relative;
 		top: 0;
 		left: 0;
