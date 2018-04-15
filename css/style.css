@@ -186,6 +186,7 @@ input[type="submit"],
 .btn-ghost:visited {
 	color: var(--base);
 	border: 1px solid var(--base);
+	background-color: transparent;
 }
 
 input[type="submit"],
